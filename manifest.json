@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Time Accelerator",
+  "version": "1.0",
+  "description": "Toggle 1000x time acceleration on any website",
+  "permissions": ["storage", "scripting", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Time Accelerator"
+  }
+}
