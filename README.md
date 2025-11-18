@@ -1,13 +1,12 @@
 # ⚡ TimeHooker Browser Extension
 
-A browser extension that accelerates time by **1000x** on any website. Skip those boring countdowns, timers, and waiting periods instantly!
+A browser extension that accelerates time by **1000x** on any website. Skip boring countdowns, timers, and waiting periods instantly!
 
 > 🎨 **100% Vibecoded** - Built entirely with AI assistance
 
 ## 🎯 What Does It Do?
 
-TimeHooker hooks into JavaScript's time functions and speeds them up by 1000x. This means:
-
+TimeHooker hooks into JavaScript's time functions and speeds them up by 1000x:
 - ⏱️ 10-second countdowns finish in 0.01 seconds
 - ⏳ 1-minute timers complete instantly
 - 🎮 Time-based animations run at hyperspeed
@@ -29,6 +28,16 @@ The extension overrides JavaScript's core time functions:
 - `performance.now()` - High-resolution time acceleration
 - `requestAnimationFrame()` - Animation frame timing
 
+## ⚠️ Responsible Use & Legal Notice
+
+This extension is provided for **educational, debugging, and convenience purposes only**. Use at your own risk and always responsibly.
+
+- Some websites' Terms of Service may prohibit automation or time manipulation
+- This tool modifies JavaScript timing only in your browser tab, and does NOT bypass server-side or security measures
+- Using TimeHooker on some services may cause malfunctions, break ToS, or result in account restrictions (a civil matter, not a crime)
+- Never use this on banking, financial, gambling, or other critical or regulated services
+- The author provides this open source "as is" and assumes no responsibility for misuse or consequences
+
 ## 📦 Installation
 
 ### From Source
@@ -37,25 +46,19 @@ The extension overrides JavaScript's core time functions:
    ```bash
    git clone https://github.com/SlasshyOverhere/timehooker-browser.extension.git
    ```
-
 2. Open your browser's extension page:
    - **Chrome/Brave**: Navigate to `chrome://extensions/`
    - **Edge**: Navigate to `edge://extensions/`
-
 3. Enable **Developer Mode** (toggle in top-right corner)
-
 4. Click **Load unpacked** and select the extension folder
-
 5. The TimeHooker icon will appear in your toolbar!
 
 ## 🎮 Usage
 
-1. Navigate to any website with timers or countdowns
-2. Click the TimeHooker extension icon in your toolbar
-3. Toggle the switch to enable/disable 1000x acceleration
-4. Watch time fly! ⚡
-
-**Note**: To disable acceleration, toggle off and the page will reload to restore normal time.
+1. Go to any website with timers or countdowns
+2. Click the TimeHooker extension icon
+3. Toggle to enable/disable 1000x acceleration
+4. To disable, toggle off and reload site
 
 ## 🎯 Use Cases
 
@@ -63,49 +66,45 @@ The extension overrides JavaScript's core time functions:
 - Test time-based functionality in web apps
 - Accelerate loading animations
 - Speed through countdown timers
-- Debug time-dependent code
+- Debug or QA time-dependent code
 
 ## 🚫 Limitations
 
-- Some websites with server-side time validation may not work as expected
-- Real-time multiplayer games might desync
-- WebSocket connections with time-based authentication may fail
-- Best suited for client-side timers and animations
+- Sites with server-verified/challenge-response timing can detect & block this
+- Multiplayer games and real-time services may break or desync
+- For client-side, visible time only (does NOT affect server or backend time)
 
 ## 🧪 Testing
 
-Try it on websites with:
+Try on:
 - Countdown timers
 - setTimeout/setInterval animations
-- Date-based content updates
+- Date-based event updates
 - Loading screens with timed delays
 
 ## 🤝 Contributing
 
-This is an open-source project! Feel free to:
+Open-source project! Feel free to:
 - Report bugs
 - Suggest features
 - Submit pull requests
-- Fork and customize
 
 ## ⚖️ License
 
-MIT License - Feel free to use, modify, and distribute!
+MIT License - use, modify, and distribute freely. For educational/demo use only.
 
 ## 🎨 Vibecoded
 
-This entire extension was built through AI-assisted development (vibecoding). The code represents a collaboration between human creativity and AI capabilities.
+Built 100% through AI-assisted development (vibecoding) - no lines written alone!
 
 ## 👤 Author
-
 **Slasshy**
 - GitHub: [@SlasshyOverhere](https://github.com/SlasshyOverhere)
 - Project: [timehooker-browser.extension](https://github.com/SlasshyOverhere/timehooker-browser.extension)
 
 ## 🌟 Support
-
 If you find this useful, give it a ⭐ on GitHub!
 
 ---
 
-**Disclaimer**: Use responsibly. This extension is for educational and convenience purposes. Some websites may not function correctly with time acceleration enabled.
+**Disclaimer**: The author is not liable for any misuse, website bans, or legal trouble. Use with respect and at your own risk. Some sites may not function correctly with time acceleration enabled.
