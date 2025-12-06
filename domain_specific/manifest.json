@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Time Accelerator",
+  "version": "1.1",
+  "description": "Toggle 1000x time acceleration on whitelisted domains",
+  "permissions": ["storage", "scripting", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Time Accelerator",
+    "default_popup": "popup.html"
+  }
+}
